@@ -1,6 +1,3 @@
-# Backend directory .gitignore
-# /full-stack-vite-project/backend/.gitignore
-
 # Logs
 logs
 *.log
@@ -14,8 +11,7 @@ node_modules
 # Environment variables
 .env
 
-# Build output
-dist/
+
 
 # Coverage directory used by tools like istanbul
 coverage/

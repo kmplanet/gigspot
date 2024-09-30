@@ -3,7 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import express, { Express, Request, Response } from "express";
 import connectMongoDB from "./db/database";
-import router from "./routes/";
+import router from "./routes";
 
 dotenv.config();
 
