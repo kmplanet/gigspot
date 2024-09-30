@@ -3,6 +3,7 @@ import { defineConfig } from "vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:'/gigspot/',
   plugins: [react()],
   server: {
     port: 5173, // Set the port for client dev server
